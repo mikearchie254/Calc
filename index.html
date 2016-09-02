@@ -4,13 +4,30 @@
   <meta charset="UTF-8">
   <title>JavaScript Calculator</title>
   <!--<link rel="stylesheet" href="css/bootstrap.css">-->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/font-awesome.css">
+
   <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <div class="calculator">
+    <!--notifcation bar-->
+    <div class="row notbar" id="notbar">
+      <div class="network">
+        Safaricom<i class="fa fa-wifi" aria-hidden="true"></i>
+      </div>
+      <div class="time">
+        00:00
+      </div>
+      <div class="bat">
+        <i class="fa fa-battery-full" aria-hidden="true"></i>
+      </div>
+    </div>
+    <!--End of notification bar-->
+    <!--Display Screen-->
     <div class="row screen" id="screen"></div>
+    <!--End Display Screen-->
+    <!--Keypad-->
     <div class="row">
       <div class="button" id="clear">C</div>
       <div class="button" id="negate">+/-</div>
@@ -40,6 +57,7 @@
       <div class="button" id="dot">.</div>
       <div class="button" id="equal">=</div>
     </div>
+    <!--End of Keypad-->
   </div>
   <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
   <script type="text/javascript" src="js/calc.js"></script>
