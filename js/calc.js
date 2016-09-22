@@ -1,3 +1,8 @@
+//Time function
+var d = new Date();
+document.getElementById("time").innerHTML = d.getHours() + ":"+d.getMinutes();
+
+//Calculator Script
 var calculator = 
 {
   screen: document.getElementById('screen'),
