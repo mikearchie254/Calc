@@ -1,6 +1,14 @@
 //Time function
 var d = new Date();
-document.getElementById("time").innerHTML = d.getHours() + ":"+d.getMinutes();
+Date.prototype.getFullMinutes = function ()
+			{
+				if (this.getMinutes() < 10)
+				{
+					return '0' + this.getMinutes();
+				}
+				return this.getMinutes();
+			};
+document.getElementById("time").innerHTML = d.getHours() + ":"+d.getFullMinutes();
 
 //Calculator Script
 var calculator = 
