@@ -1,15 +1,15 @@
-body 
+body
 {
   font-family: Arial;
   background-color: #0B070A;
 }
-.calculator 
+.calculator
 {
   width: 25%;
   margin: 50px auto;
   border: 1px solid grey;
 }
-.calculator .screen 
+.calculator .screen
 {
   width: 100%;
   box-sizing: border-box;
@@ -47,11 +47,11 @@ body
   margin-right: 30%;
 }
 
-.calculator .row 
+.calculator .row
 {
   overflow: hidden;
 }
-.calculator .button 
+.calculator .button
 {
   background: #e8e8e8;
   float: left;
@@ -65,28 +65,28 @@ body
   border-bottom: 1px solid #777;
   box-sizing: border-box;
 }
-.calculator .button:last-child 
+.calculator .button:last-child
 {
   border-right: none;
 }
 
-.calculator .row:nth-child(2) .button 
+.calculator .row:nth-child(2) .button
 {
   border-top: 1px solid #777;
 }
-.calculator .row:last-child .button:first-child 
+.calculator .row:last-child .button:first-child
 {
   width: 50%;
-  text-align: center;
+  text-align: left;
   padding: 15px 40px;
 }
 
-.calculator .row:nth-child(2) .button 
+.calculator .row:nth-child(2) .button
 {
   background: #dbdbdb;
 }
 .calculator .row:nth-child(2) .button:last-child,
-.calculator .button:last-child 
+.calculator .button:last-child
 {
   background: #D19800  ;
   color: #fff;
